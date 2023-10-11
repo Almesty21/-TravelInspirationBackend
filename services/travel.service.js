@@ -4,7 +4,7 @@ const Travel = require('../models/travel');
 // Create a new travel
 exports.createTravel = async (travelData) => {
   const travel = new Travel(travelData);
-  return await song.save();
+  return await travel.save();
 };
 
 // Retrieve all travel
