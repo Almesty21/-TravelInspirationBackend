@@ -6,7 +6,7 @@ const path = require("path");
 const travelRoutes = require('./routes/travel.routes');
 require('dotenv').config();
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 6000;
 const { MONGODB_URI } = process.env;
 mongoose.connect(MONGODB_URI, {
         useNewUrlParser: true,
