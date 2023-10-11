@@ -1,5 +1,5 @@
 
-const Travel = require('../models/Travel');
+const Travel = require('../models/travel');
 
 // Create a new travel
 exports.createTravel = async (travelData) => {
