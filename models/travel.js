@@ -1,6 +1,11 @@
 const mongoose = require('mongoose');
 
 const destinationSchema = new mongoose.Schema({
+    id:{
+        type: String,
+        unique: true,
+        required: true
+    }
     image:{
         type: String,
         required: true,
