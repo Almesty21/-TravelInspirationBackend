@@ -6,10 +6,7 @@ const destinationSchema = new mongoose.Schema({
         unique: true,
         required: true
     },
-    image:{
-        type: String,
-        required: true
-    },
+ 
   name: {
     type: String,
     required: true
